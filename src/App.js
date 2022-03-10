@@ -1,19 +1,10 @@
-import app from "./config.js";
-import 'dotenv/config'
+import Signup from "./auth/Signup";
 
-
-
-
-
-console.log(process.env)
-
-console.log(app);
-function App() {
-  return (
-    <div className="App">
-      <h1>Landing</h1>
-    </div>
+function App(){
+  return(
+    <div className='App'>
+      <Signup/>
+		</div>
   );
-}
-
+};
 export default App;

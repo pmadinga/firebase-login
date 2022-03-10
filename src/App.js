@@ -1,5 +1,13 @@
+import app from "./config.js";
+import 'dotenv/config'
 
 
+
+
+
+console.log(process.env)
+
+console.log(app);
 function App() {
   return (
     <div className="App">
